@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+.dropdown-item {
+	text-align: center;
+	font-weight: bold;
+	vertical-align: center;
+}
+
+#food-description {
+	background-color: #999898;
+	margin-bottom: 20px;
+}
+
+#food-title {
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#main-title {
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+#brand-name {
+	font-size: 28pt;
+	font-weight: bold;
+	color: black;
+}
+
+#bs-example-navbar-collapse-1 {
+
+}
+
+div > section {
+	padding: 0px 10px 10px 10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+		
+}
+
+@media (max-width: 767px) {
+	#brand-name {
+		font-size: 1.5em;
+	}
+		#food-description {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+	}
+
+	#main-content {
+		margin-left: auto;
+	}
+
+	#main-title {
+		font-size: 1.3em;
+	}
+	#food-title {
+		margin-top: 15px;
+		font-size: 1em;
+	}
+
+	h1 {
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
